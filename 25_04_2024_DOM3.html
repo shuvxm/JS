@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./25_04_2024_DOM3.css">
+</head>
+<body>
+    <h1>DOm3</h1>
+    <h2 id="Show_Data" style="margin:auto;margin-top: 20px;"></h2>
+    <form action="">
+        <input type="text" name="fnm" id="" placeholder="Enter Your First Name">
+        <input type="text" name="lnm" id="" placeholder="Enter Your Last Name">
+        <button onclick="handleSubmit(event)">Submit</button>
+    </form>
+    <hr>
+    <!-- My Version -->
+    <form action="" onsubmit="handleSubmit2(event)">
+        <input type="text" name="fullnm" id="" placeholder="Enter Your Full Name">
+        <!-- <input type="number" name="age" id="" placeholder="Enter Your Age"> -->
+        <input type="number" name="pnum" id="" placeholder="Enter Your phoneNumber">
+        <input type="number" name="pynum" id="" placeholder="Enter Your passout Year">
+        <input type="date" name="DOB" id="" placeholder="Enter DOB">
+        <button>Submit</button>
+    </form>
+    <div class="box">
+        <h3 style=" text-align: center; font-size: 40px;">Your Details</h3>
+        <div class="line" style="border: none;border-bottom:2px solid gray"></div>
+        <div id="data"></div>
+    </div>
+    <hr>
+    <!-- Sir's Version -->
+    <form action="" onsubmit="ageCalculator(event)">
+        <input type="text" name="fullnm" id="" placeholder="Enter Your Full Name">
+        <input type="text" name="age" id="" placeholder="Enter Your BirthYear">
+        <button>Submit</button>
+    </form>
+    <div class="box">
+        <h3 style=" text-align: center; font-size: 40px;">Your Details</h3>
+        <div id="ageRes" style="border: none;border-bottom:2px solid gray"></div>
+        <div id="data2"></div>
+    </div>
+
+    <script src="./25_04_2024_DOM3.js"></script>
+</body>
+</html>

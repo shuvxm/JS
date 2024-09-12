@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,button{
+            display: block;
+            margin: 10px auto;
+
+        }
+       
+    </style>
+    
+</head>
+<body>
+    <h1>Events</h1>
+    <h1>Click Event</h1>
+    <button onclick="console.log('hai')">
+        click here
+    </button>
+    <button onclick="fnm()">
+        print name
+
+    </button>
+
+
+    <h3>On Double Click</h3>
+    <button ondblclick="doubleClick()">
+    Double Click
+</button>
+
+<h4>Both</h4>
+<button onclick="singleClick()"
+ondblclick="doubleClick()">
+<img src="../OnePlus/Images/OnePlus-Logo.png" alt="" height="50px" width="100px">
+
+</button>
+
+<h1>KeyBoard Events</h1>
+<input type="text" onkeydown="key1()"
+placeholder="onkeydown">
+
+<input type="text" onkeypress="key2()" placeholder="onkeypress">
+
+<input type="text" onkeyup="key3()" placeholder="onkeyup">
+
+
+
+<h2>Mouse Events</h2>
+<img src="../Netflix/Images/bg.jpg" alt="" height="150px" width="400px" onmouseover="chill()">
+
+
+
+<form onsubmit="handle(event)">
+    <input type="text" name="" id="" placeholder="Enter First name">
+    <input type="text" placeholder="Enter last name">
+    <button>Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+    <script src="./13.Events.js"></script>
+
+    <br><br><br><br><br>
+    
+</body>
+</html>

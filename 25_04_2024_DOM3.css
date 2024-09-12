@@ -1,0 +1,15 @@
+input,button{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+.box{
+    height:400px;
+    width: 800px;
+    margin:10px auto;
+    border: solid 1px gray;
+}
+#data,#data2{
+    width: 600px;   
+    margin:10px auto;
+}

@@ -1,0 +1,10 @@
+#root{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.container{
+    border: solid 2px crimson;
+    height: 100px;
+    width: 100px;
+}

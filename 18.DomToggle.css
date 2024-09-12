@@ -1,0 +1,32 @@
+.box{
+    border:solid 2px black;
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+    
+}
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.button{
+    margin: auto auto;
+    font-weight: bold;
+    
+    
+
+}
+.off{
+    border: solid 1px red;
+    color: red;
+}
+.on{
+    color: green;
+}

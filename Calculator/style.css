@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    background-image: linear-gradient(rgb(11, 154, 211),white,rgb(11, 154, 211));
+}
+
+table{
+    height: 60vh;
+
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+input{
+    height: 100%;
+    width: 100%;
+    border: none;
+
+}
+th{
+    height: 10vh;
+    width: 10vh;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 15px;
+}

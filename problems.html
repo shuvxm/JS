@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Note:-
+        Typecasting or Type Conversion or Type Corossion in JavaScript
+
+        Type conversion is a process of converting from one data type to anothe rdata type.
+        -> there are 2 types of type conversion
+            1. Implicit type conversion
+            2. Explicit type conversion
+
+    *1. Implicit type conversion:-
+        -> proces of converting one data type to another data type implicitly, without 
+            interfering the programming by the help of JS engine itself is known as Implicit type conversion
+        Ex:- 
+            console.log(10 + '10');  // 1010 -> String
+            console.log(true + 5);   // 6    -> Number
+            console.log('10' - 5);   // 5    -> number  ( String converted to Number here)
+
+    *2. Explicit type conversion:-
+        -> the process of converting from one data type to another data type
+             explicitly by the help of programmer is known as Explicit type conversion.
+        Ex:-
+           ** Number():-
+                let x = "10"
+                console.log(typeof(x));  // String
+                let y = Number(x);
+                console.log(typeof(y));  // Number
+
+            let x = true
+            console.log(typeof(x));  // boolean
+            let y = Number(x)
+            console.log(typeof(y));  // Number
+            console.log(y);         // 1
+
+            let x = true
+            console.log(typeof(x));  // boolean
+            let y = String(x)
+            console.log(typeof(y));  // String
+            console.log(y);         // "1"
+
+    -->
+    <script>
+        let a = true;
+        console.log(typeof(a))
+        let y = Number(a)
+        console.log(y)
+        console.log(typeof(y))
+
+        // wap to perform the addition of two numbers entered by the user
+        let j = Number(prompt("enter num1"));
+        console.log(typeof(x))
+        let k = Number(prompt("Enter num2"))
+        console.log(typeof(y));
+
+        let sum = x+y;
+        console.log(sum)
+
+    </script>
+</body>
+</html>

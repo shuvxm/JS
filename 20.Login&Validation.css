@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.loginPage{
+    border: solid 1px crimson;
+    height: 150px;
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: linear-gradient(pink,rgb(120, 48, 187),rgb(86, 164, 178),pink,pink);
+    /* background-image: radial-gradient(black,red,blue,black); */
+}
+.loginPage input, .loginPage button{
+    display: block;
+    margin: 10px auto;
+    height: 20px;
+}
+.loginPage input{
+    width: 100%;
+}
+
+.loginPage button{
+    width: 50%;
+}
